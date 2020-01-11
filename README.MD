@@ -1,4 +1,4 @@
-Банковский калькулятор со слайдерами (ползунками) и управляемой SVG-диаграммой.
+Калькулятор доходности вклада со слайдами и кольцевой SVG-диаграммой.
 ---
 #### Установка зависимостей
 $ npm i
@@ -11,5 +11,6 @@ $ gulp styles
 
 #### Сборка скриптов
 $ gulp scripts
+
 ---
-![](https://github.com/AKopytenko/Templates/blob/master/Calculator-Bank/preview.jpg)
+![](https://github.com/AKopytenko/Templates/blob/master/Calculator-Bank/preview.png)
