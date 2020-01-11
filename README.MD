@@ -13,4 +13,4 @@ $ gulp styles
 $ gulp scripts
 
 ---
-![](https://github.com/AKopytenko/Templates/blob/master/Calculator-Bank/preview.jpg)
+![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
