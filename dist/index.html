@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/libs/nouislider.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Calculator: BANK</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="bcalc">
+        <div class="bcalc__header">Расчитайте свой доход</div>
+        <div class="bcalc__main">
+            <div class="bcalc__sliders">
+                <div class="bcalc__slidersGroug">
+                    <div class="bcalc__slidersGrougHeader">Первоначальный <br>взнос</div>
+                    <div class="bcalc__slider">
+                        <input class="bcalc__sliderLabel" id="bcalc_inputSummLabel" type="text" value="0">
+                        <div class="bcalc__sliderControl">
+                            <div id="bcalc_inputSumm" class="bcalc__inputSumm"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bcalc__slidersGroug">
+                    <div class="bcalc__slidersGrougHeader">Пополнение <br>в месяц</div>
+                    <div class="bcalc__slider">
+                        <input class="bcalc__sliderLabel" id="bcalc_inputRefillLabel" type="text" value="0">
+                        <div class="bcalc__sliderControl">
+                            <div id="bcalc_inputRefill" class="bcalc__inputRefill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bcalc__slidersGroug">
+                    <div class="bcalc__slidersGrougHeader">Срок</div>
+                    <div class="bcalc__slider">
+                        <input class="bcalc__sliderLabel" id="bcalc_inputTermLabel" type="text" value="0">
+                        <div class="bcalc__sliderControl">
+                            <div id="bcalc_inputTerm" class="bcalc__inputTerm"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bcalc__diagramm">
+                <canvas width="300" height="300" class="bcalc__diagrammCanvas" id="bcalc__diagrammCanvas"></canvas>
+                <span class="bcalc__result">
+                    <span class="bcalc__resultTerm">Через <span class="bcalc__resultTermNum">0 месяцев</span></span>
+                    <span class="bcalc__resultSumm">0</span> <span class="bcalc__resultCurrency">рублей</span>
+                </span>
+            </div>
+        </div>
+        <div class="bcalc__btns">
+            <a href="#" class="bcalc__btn bcalc__btn_main">Открыть счёт</a>
+        </div>
+    </div>
+</div>
+
+<script src="js/libs/jquery.min.js"></script>
+<script src="js/libs/nouislider.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

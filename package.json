@@ -1,0 +1,30 @@
+{
+  "name": "calculator_bank",
+  "version": "1.0.0",
+  "description": "Банковский калькулятор со слайдерами (ползунками) и управляемой SVG-диаграммой.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKopytenko/Calculator-Bank.git"
+  },
+  "author": "akopytenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AKopytenko/Calculator-Bank/issues"
+  },
+  "homepage": "https://github.com/AKopytenko/Calculator-Bank#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-less": "^4.0.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

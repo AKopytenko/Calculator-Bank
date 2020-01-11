@@ -1,0 +1,127 @@
+@import '_variables.less';
+
+.bcalc {
+    font-family: Verdana;
+
+    &__header {
+        font-size: 42px;
+        margin: 0 0 75px;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__sliders {
+        width: 75%;
+        padding: 0 30px 0 0;
+    }
+
+    &__slidersGroug {
+        display: flex;
+        margin: 0 0 70px;
+        
+        &Header {
+            width: 30%;
+            font-size: 26px;
+            padding: 0 30px 0 0;
+        }
+    }
+
+    &__slider {
+        width: 70%;
+
+        &Label {
+            border: 0;
+            margin: 0 0 20px;
+            font-size: 28px;
+            color: @gray;
+        }
+
+        .noUi-handle {
+            border-radius: 50%;
+            border: 0;
+            background: @orange;
+            width: 24px;
+            height: 24px;
+            box-shadow: none;
+            top: 50%;
+            margin-top: -11px;
+            outline: none;
+            cursor: pointer;
+
+            &:before, 
+            &:after {
+                display: none;
+            }
+        }
+
+        .noUi-connect {
+            background: linear-gradient(90deg, lighten(@orange, 30%) 0%, @orange 100%);
+        }
+    }
+
+    &__inputSumm,
+    &__inputRefill,
+    &__inputTerm {
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        height: 3px;
+        border: 0;
+        background: #f0f0f0;
+        font-family: Verdana;
+    }
+
+    &__result {
+        position: absolute;
+        z-index: 111;
+        top: 50%;
+        left: 10%;
+        width: 80%;
+        margin-top: -40px;
+        text-align: center;
+
+        &Term {
+            display: block;
+            margin: 0 0 10px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        &Summ {
+            font-size: 36px;
+            line-height: 36px;
+        }
+
+        &Currency {
+            color: #888;
+            display: block;
+        }
+    }
+
+    &__btn {
+        display: inline-block;
+        padding: 25px 65px;
+        background: @orange;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        text-decoration: none;
+        transition: all .3s;
+
+        &:hover {
+            background: lighten(@orange, 7%);
+        }
+    }
+
+    &__diagramm {
+        position: relative;
+
+        &Canvas {
+            transform: rotate(-90deg);
+        }
+    }
+}
