@@ -1,4 +1,9 @@
 ## Калькулятор доходности вклада со слайдами и кольцевой SVG-диаграммой
+
+![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
+
+---
+
 Что внутри:
 * LESS
 * jQuery 3
@@ -40,5 +45,3 @@
 > Конец: **5 000 000**
 
 Для включения нелинейности при вызове функции **createSlides** установить параметр **nonLinear** в значение **true**.
-
-![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
