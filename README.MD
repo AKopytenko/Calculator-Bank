@@ -1,4 +1,4 @@
-## Калькулятор доходности вклада со слайдами и кольцевой SVG-диаграммой
+## Калькулятор доходности вклада со слайдами и кольцевой canvas-диаграммой
 
 ![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
 
