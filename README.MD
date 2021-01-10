@@ -1,6 +1,7 @@
 ## Калькулятор доходности вклада со слайдами и кольцевой canvas-диаграммой
 
-![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
+#### DEMO  
+http://wr-team.ru/demo/calculator-bank/
 
 ---
 
@@ -45,3 +46,6 @@
 > Конец: **5 000 000**
 
 Для включения нелинейности при вызове функции **createSlides** установить параметр **nonLinear** в значение **true**.
+---
+#### Preview
+![](https://github.com/AKopytenko/Calculator-Bank/blob/master/preview.jpg)
